@@ -24,10 +24,10 @@ public class Picture
     {
         sun.slowMoveVertical(80);
         persona = new Person();
-        persona.makeVisible();
         persona.changeColor("black");
         persona.moveHorizontal(-140);
         persona.moveVertical(30);
+        persona.makeVisible();
         persona.slowMoveHorizontal(180);// nothing to do... instance variables are automatically set to null
     }
 
