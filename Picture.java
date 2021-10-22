@@ -15,14 +15,13 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
-    private Square campo;
-
+    private Square campo; 
     /**
-     * Constructor for objects of class Picture
+     * atardecer de la casa
      */
-    public Picture()
+    public void Atardecer()
     {
-        // nothing to do... instance variables are automatically set to null
+        sun.slowMoveVertical(80);// nothing to do... instance variables are automatically set to null
     }
 
     /**
