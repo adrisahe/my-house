@@ -16,12 +16,19 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Square campo; 
+    private Person persona;
     /**
      * atardecer de la casa
      */
     public void Atardecer()
     {
-        sun.slowMoveVertical(80);// nothing to do... instance variables are automatically set to null
+        sun.slowMoveVertical(80);
+        persona = new Person();
+        persona.makeVisible();
+        persona.changeColor("black");
+        persona.moveHorizontal(-140);
+        persona.moveVertical(30);
+        persona.slowMoveHorizontal(180);// nothing to do... instance variables are automatically set to null
     }
 
     /**
